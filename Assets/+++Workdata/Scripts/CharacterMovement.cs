@@ -15,8 +15,8 @@ public class CharacterMovement : MonoBehaviour
 
     public float speed = 5f;
     public Rigidbody2D rb;
-
-
+    public Animator anim;
+    public SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
@@ -33,6 +33,25 @@ public class CharacterMovement : MonoBehaviour
     private void Update()
     { 
         moveInput = moveAction.ReadValue<Vector2>();
+
+        if(moveInput.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if(moveInput.x > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+
+        if (moveInput.x != 0)
+        {
+            anim.SetFloat("MovementSpeed", 5);
+        }
+        else
+        {
+            anim.SetFloat("MovementSpeed", 0);
+        }
+
     }
 
     private void FixedUpdate()
