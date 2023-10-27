@@ -1,5 +1,5 @@
 {
-    "name": "PlayerInputActions",
+    "name": "Player_InputActions",
     "maps": [
         {
             "name": "Player",
@@ -24,9 +24,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Fire",
+                    "name": "Attack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Roll",
+                    "type": "Button",
+                    "id": "9c0ee0b0-a51e-4a61-b2cd-38b80ea7b852",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -173,7 +182,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Fire",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -184,18 +193,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Fire",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "886e731e-7071-4ae4-95c0-e61739dad6fd",
-                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "id": "3f9255da-a51a-4c02-8339-7a3282aa3066",
+                    "path": "<Keyboard>/v",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "Fire",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Roll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a925f02e-dc05-486e-9cc0-5dd0b1d8aa55",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Roll",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

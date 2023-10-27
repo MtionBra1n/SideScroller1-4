@@ -862,8 +862,8 @@ TextureImporter:
         y: 780
         width: 23
         height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -883,8 +883,8 @@ TextureImporter:
         y: 780
         width: 21
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52380955, y: -0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -904,8 +904,8 @@ TextureImporter:
         y: 780
         width: 14
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -925,8 +925,8 @@ TextureImporter:
         y: 780
         width: 17
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5294118, y: -0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -946,8 +946,8 @@ TextureImporter:
         y: 780
         width: 15
         height: 18
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.53333336, y: -0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -967,8 +967,8 @@ TextureImporter:
         y: 780
         width: 17
         height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -988,8 +988,8 @@ TextureImporter:
         y: 780
         width: 19
         height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1009,7 +1009,7 @@ TextureImporter:
         y: 780
         width: 22
         height: 24
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -1303,8 +1303,8 @@ TextureImporter:
         y: 707
         width: 21
         height: 19
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.04761905, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1324,8 +1324,8 @@ TextureImporter:
         y: 707
         width: 73
         height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.21917808, y: -0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1345,8 +1345,8 @@ TextureImporter:
         y: 703
         width: 25
         height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.68, y: 0.22727273}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1359,36 +1359,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword Master Sprite Sheet 90x37_58
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 724
-        width: 4
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40414c413c4c72840b95149e62f8bf9b
-      internalID: 1561809625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Sword Master Sprite Sheet 90x37_59
       rect:
         serializedVersion: 2
-        x: 370
-        y: 703
-        width: 24
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 344
+        y: 708
+        width: 50
+        height: 20
+      alignment: 9
+      pivot: {x: 0.88, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1405,11 +1384,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 432
-        y: 696
+        y: 708
         width: 53
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 21
+      alignment: 9
+      pivot: {x: 0.8679246, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1427,10 +1406,10 @@ TextureImporter:
         serializedVersion: 2
         x: 189
         y: 704
-        width: 26
+        width: 27
         height: 20
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1450,8 +1429,8 @@ TextureImporter:
         y: 707
         width: 22
         height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6363636, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
